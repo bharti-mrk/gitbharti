@@ -8,10 +8,13 @@ public class ClassContact {
             if(con.LastName =='Raje'){
             con.Phone='256389';
             acc.Phone = con.Phone;
-        }
-		else{
-		con.Phone='8989898989';
-		}
+          }
+			else{
+			con.Phone='8989898989';
+			}
+			else if(con.LastName =='Raje12'){
+			con.Phone='123654897';
+			}
         acco.add(acc);
     }
     
